@@ -1,0 +1,41 @@
+{
+  "name": "react-ioc",
+  "version": "0.0.1",
+  "description": "A powerful implementation of inversifyjs to support inversion of control on react applications powered by react context api and typescript.",
+  "main": "dist/react-ioc.js",
+  "typings": "dist/react-ioc.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config jest.config.json",
+    "watch": "tsc --watch --preserveWatchOutput"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/servicetitan/react-ioc.git"
+  },
+  "keywords": [
+    "react",
+    "inversify",
+    "ioc",
+    "react-ioc",
+    "javascript",
+    "typescript"
+  ],
+  "author": "ServiceTitan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/servicetitan/react-ioc/issues"
+  },
+  "homepage": "https://github.com/servicetitan/react-ioc#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.0",
+    "@types/react": "^16.4.6",
+    "inversify": "^4.13.0",
+    "jest": "^23.4.1",
+    "react": "^16.4.1",
+    "react-test-renderer": "^16.4.1",
+    "reflect-metadata": "^0.1.12",
+    "ts-jest": "^23.0.1",
+    "typescript": "^2.9.2"
+  }
+}
