@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Container, interfaces } from 'inversify';
+import { Container, interfaces, injectable, inject, optional } from 'inversify';
 import 'reflect-metadata';
 
 export { interfaces };
@@ -152,3 +152,9 @@ export function injectDependency(serviceIdentifier: interfaces.ServiceIdentifier
     };
 }
 
+export {
+    injectable,
+    inject,
+    optional,
+    Container
+}
