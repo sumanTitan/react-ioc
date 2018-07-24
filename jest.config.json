@@ -4,6 +4,7 @@
         "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.(tsx?)$",
+    "testPathIgnorePatterns": [".d.tsx?"],
     "moduleFileExtensions": [
         "ts",
         "tsx",

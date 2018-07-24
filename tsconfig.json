@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "sourceMap": true,
-        "noImplicitAny": false,
+        "noImplicitAny": true,
         "module": "esnext",
         "target": "es5",
         "jsx": "react",
@@ -17,7 +17,8 @@
         "strict": true
     },
     "include": [
-        "src/**/*"
+        "src/**/*",
+        "tests/**/*"
     ],
     "exclude": [
         "node_modules"
