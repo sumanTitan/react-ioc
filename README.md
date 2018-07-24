@@ -149,17 +149,13 @@ A decorator used to inject the required information in the Provider in the curre
 
   
 
-`[NOTE: Must use @withContainer with it.]`
-
-  
-
   
 
 #### <a name="WithContainer"></a> @withContainer
 
   
 
-A decorator 
+A decorator that should be used in order to consume any provided values.
 
   
 
