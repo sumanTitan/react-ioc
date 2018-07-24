@@ -46,7 +46,6 @@
     "/src",
     "README.md",
     "tsconfig.json",
-    "tslint.json",
     "LICENSE.md"
   ]
 }
