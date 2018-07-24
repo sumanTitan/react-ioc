@@ -157,4 +157,4 @@ export {
     inject,
     optional,
     Container
-}
+};
