@@ -47,5 +47,8 @@
     "README.md",
     "tsconfig.json",
     "LICENSE.md"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
