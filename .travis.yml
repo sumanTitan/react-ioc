@@ -8,8 +8,9 @@ install:
 script:
     - npm run build
 deploy:
-    provider: npm 
+    provider: script 
     script: "npm publish --access public"
+    skip_cleanup: true
     on:
         tags: true
 notifications:
