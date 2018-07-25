@@ -17,9 +17,9 @@ deploy:
         tags: true
 jobs:
     include:
-	- stage: test
+	- stage: "test"
 	  script: npm run test
-	- stage: code-coverage
+	- stage: "code-coverage"
 	  script: CODECLIMATE_REPO_TOKEN=$CODE_CLIMATE codeclimate-test-reporter < coverage/lcov.info
 notifications:
   email:
