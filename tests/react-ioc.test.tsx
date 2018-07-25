@@ -52,6 +52,7 @@ describe('[IOC tests]', () => {
         ));
 
         expect(contextContainer.get(SampleStore)).toBeDefined();
+        expect(1 + 1).toBe(3);
         expect(contextContainer.get(SampleStore).singletonVariable).toBe(2);
     });
 
