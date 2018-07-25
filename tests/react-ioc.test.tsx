@@ -35,6 +35,7 @@ describe('[IOC tests]', () => {
         const ComponentRenderer = TestRenderer.create(<ComponentWithContainer />);
         const RendererInstance = ComponentRenderer.root;
         const container = RendererInstance.findByType(Component).props.container;
+        expect(1 + 1).toBe(3);
         expect(container).toBeDefined();
     });
 
