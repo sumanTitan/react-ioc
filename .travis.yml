@@ -7,4 +7,15 @@ install:
     - npm install
 script:
     - npm run build
-
+deploy:
+    provider: script
+    script: "npm publish --access public"
+    on:
+        tags: true
+notifications:
+  email:
+    recipients:
+    - sumanTitan@servicetitan.com
+    - kanoshin@servicetitan.com
+    on_success: change
+    on_failure: always
