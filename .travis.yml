@@ -1,4 +1,7 @@
 language: node_js
+addons:
+  code_climate:
+    repo_token: $CODE_CLIMATE
 node_js:
     - 'stable'
 before_install:
@@ -7,6 +10,7 @@ before_install:
 install:
     - npm install
 script:
+    - npm run test
     - npm run build
 deploy:
     provider: npm
@@ -15,12 +19,12 @@ deploy:
     api_key: $NPM_TOKEN
     on:
         tags: true
-jobs:
-    include:
-	- stage: "test"
-	  script: npm run test
-	- stage: "code-coverage"
-	  script: CODECLIMATE_REPO_TOKEN=$CODE_CLIMATE codeclimate-test-reporter < coverage/lcov.info
+cache:
+  directories:
+    - node_modules
+after_script:
+  - npm install -g codeclimate-test-reporter
+  - codeclimate-test-reporter < ./coverage/lcov.info
 notifications:
   email:
     recipients:
