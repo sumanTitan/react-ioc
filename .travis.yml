@@ -8,8 +8,7 @@ install:
 script:
     - npm run build
 deploy:
-    provider: script 
-    script: "npm publish --access public"
+    provider: npm
     skip_cleanup: true
     email: "$NPM_EMAIL"
     api_key: "$NPM_TOKEN"
