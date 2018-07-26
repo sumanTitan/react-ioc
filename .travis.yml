@@ -5,7 +5,6 @@ addons:
 node_js:
     - 'stable'
 before_install:
-    - npm install -g codeclimate-test-reporter
     - npm install -g typescript
 install:
     - npm install
@@ -23,8 +22,7 @@ cache:
   directories:
     - node_modules
 after_script:
-  - npm install -g codeclimate-test-reporter
-  - codeclimate-test-reporter < ./coverage/lcov.info
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
 notifications:
   email:
     recipients:
