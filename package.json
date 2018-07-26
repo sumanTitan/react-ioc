@@ -1,6 +1,6 @@
 {
   "name": "@sum114/react-ioc-heheh",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A powerful implementation of inversifyjs to support inversion of control on react applications powered by react context api and typescript.",
   "main": "dist/react-ioc.js",
   "typings": "dist/react-ioc.d.ts",
