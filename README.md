@@ -7,7 +7,7 @@
 
   
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) ![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg) [![Test Coverage](https://api.codeclimate.com/v1/badges/35b98fe7b5ec970dd4a0/test_coverage)](https://codeclimate.com/github/sumanTitan/react-ioc/test_coverage) [![Build Status](https://travis-ci.org/sumanTitan/react-ioc.svg?branch=master)](https://travis-ci.org/sumanTitan/react-ioc)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![npm version](https://badge.fury.io/js/%40sum114%2Freact-ioc-heheh.svg)](https://badge.fury.io/js/%40sum114%2Freact-ioc-heheh) [![Test Coverage](https://api.codeclimate.com/v1/badges/35b98fe7b5ec970dd4a0/test_coverage)](https://codeclimate.com/github/sumanTitan/react-ioc/test_coverage) [![Build Status](https://travis-ci.org/sumanTitan/react-ioc.svg?branch=master)](https://travis-ci.org/sumanTitan/react-ioc)
 
   
 
